@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+p {
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.first, .second, .third {
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+
+.first {
+    background-color: #de2b24;
+}
+
+.second {
+    background-color: #1287bf
+}
+
+.third {
+    background-color: #2a2a2a;
+}
+
+.text {
+    text-align: center;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+.pictures {
+    display:  table;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divRow {
+    display: table-row;
+    width: auto;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    border: none;
+   
+}
+
+.divCell {
+    float: left; 
+    display: table-column;
+    width: 255px;
+    height: 255px;
+    background-color: salmon;
+ }
+
+ .divCell h1, p {
+     color: white;
+ }
+
+ .covered{
+    width: 100%;
+    height: 100%;
+ }
+
+ #camera{
+    width: 104%;
+    height: 100%;
+    z-index: 10;
+    overflow: hidden;
+ }
+
+ .telegram {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+ }
+
+.social {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.soc-block {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border: 1px solid gray;
+    float: left; 
+    display: table-cell;   
+    margin-bottom: 30px;
+}
+
+.third h1 {
+    margin-bottom: 20px;   
+}
+
+.soc-block img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.soc-block:hover {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border: 1px solid #b42b25;
+    float: left; 
+    display: table-cell;   
+    margin-bottom: 30px;
+}
+
+.subtext {
+    color: gray;
+}
+
+form {
+    text-align: center;
+}
+
+#mail-field {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #515151;
+    border: none;
+    padding-left: 10px;
+    color: white;
+}
+
+.text-block {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.reg-info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#circle {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gal {
+    display: flexbox;
+    margin-top: 20%;
+}
+
+.circle-block {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+#triangle {
+    width: 0px;
+    border: 40px solid transparent; border-bottom: 40px solid white;
+}
+
+.details {
+    background-color: white;
+    width: 700px;
+    padding: 50px;
+    border-radius: 3px;
+}
+
+.reg-info {
+    border-radius: 4px;
+    height: 30px;
+    margin-top: 5px;
+    width: 60%;
+    outline: none;
+}
+
+input {
+    padding-left: 10px;
+    border: 1px solid gray;
+}
+
+.but-reg {
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 20%;
+    border-radius: 4px;
+    align-self: center;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+#mail-field:focus {
+    box-shadow: 0px 0px 20px #56595c;
+}
+
+.reg-info:focus {
+    border-color: #6EA2DE;
+    box-shadow: 0px 0px 10px #6EA2DE;
+}
+
+#mail-sub {
+    margin-top: 30px;
+    background-color: #2a2a2a;
+    color: white;
+    height: 40px;
+    width: 7%;
+    border: 2px solid #515151;
+    border-radius: 3px;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+#mail-sub:hover {
+    margin-top: 30px;
+    background-color: #2a2a2a;
+    color: white;
+    height: 40px;
+    width: 7%;
+    border: 2px solid #7e0808;
+    border-radius: 3px;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+#close {
+    position: inherit;
+    border: 3px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: red;
+    margin-left: 103%;
+    margin-top: -10%;
+}
+
+#close-text {
+    font-size: 20px;
+    display: flexbox;
+    margin-top: 13%;
+}
+
+.divCell:hover {
+    transform: scale(1.1); 
+}
+
